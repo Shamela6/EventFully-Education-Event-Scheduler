@@ -1,0 +1,53 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-image: url("home.webp");
+    background-repeat:no-repeat;
+    background-size: 100%;
+  }
+  h1 {
+    text-align: center;
+    margin: 20px auto;
+    color: #7600bc;
+    background-color: #fff;
+    width: 300px;
+  }
+  form {
+    width: 50%;
+    margin: auto;
+  }
+  fieldset {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 5px #333;
+    background-color: #eee;
+  }
+  label {
+    display: block;
+    
+    margin-bottom: 5px;
+  }
+  input[type="text"],input[type="email"],select{
+    width: calc(100% - 20px);
+    height: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto !important;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+  #events {
+    height: 35px;
+  }
+  .container {
+    width: 70px;
+  }

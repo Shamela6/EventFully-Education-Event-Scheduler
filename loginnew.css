@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    background-image: url("home.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Arial';
+}
+.login{
+        width: 370px;
+        overflow: hidden;
+        margin: 40px 450px;
+        margin: 20 0 0 450px;
+        padding: 50px;
+        background: #fff;
+        border-radius: 15px ;
+
+}
+input {
+    background-color: #999393;
+    color:#000;
+}
+h2{
+    text-align: center;
+    color:#7600bc;
+    padding: 20px;
+}
+label{
+    color: #7600bc;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    background-color: #7600bc;
+    color:#fff;
+
+
+}
+span{
+    color: #7600bc;
+    font-size: 17px;
+}
