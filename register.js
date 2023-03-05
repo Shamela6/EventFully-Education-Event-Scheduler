@@ -1,5 +1,7 @@
 var eventsSelect = document.getElementById("events");
 
+/* Display events based on those created by admin/host, here random events are specified as backend
+  is not created */
 var events = {
   A: "Event1",
   B: "Event2",

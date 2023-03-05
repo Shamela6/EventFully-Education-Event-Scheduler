@@ -58,6 +58,7 @@
     color: white;
   }
   
+  /* Add properties to all h1 tags */
   h1 {
     display: block;
     color: aqua;

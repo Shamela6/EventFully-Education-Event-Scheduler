@@ -2,12 +2,13 @@
 <html>
 
 <head>
-    <div class="container">
-    
-        <a href="index.html" style="background-color:#f1f1f1;">
-            <button type="button" class="cancelbtn">Home</button>
-          </a> 
-  </div>
+  <!--Company logo & name, click on name to navigate to home page-->
+  <div class="topnav">
+    <img src="logo.png" width="55px" align="left">
+    <a href="index.html">
+      <button  type="text"><b class="topbar">EventFully</b>
+    </a> 
+</div>
   <title>Event Registration Form.</title>
   <div id="event-registration">
     <h1 id="heading">Event Registration</h1>
@@ -21,6 +22,7 @@
         <label for="email">Email</label>
         <input type="email" id="email" name="email" />
         <label for="events">Event</label>
+        <!--events hosted by admins are displayed here-->
         <select id="events">
             <option>-- Choose event --</option>
         </select>
@@ -28,7 +30,7 @@
         <input type="text" id="time" name="time" />
       </fieldset>
       <a href="payment.html">
-        <button type="button">Proceed to payment</button>
+        <button class="bu" type="button">Proceed to payment</button>
       </a> 
   </div>
   <link rel="stylesheet" href="style1.css" />

@@ -1,9 +1,12 @@
+/* Add properties to the contents of body*/
 body {
     font-family: "Raleway", sans-serif;
     background-image: url("home.webp");
     background-repeat:no-repeat;
     background-size: 100%;
   }
+
+  /* Add properties to all h1 tags*/
   h1 {
     text-align: center;
     margin: 20px auto;
@@ -11,6 +14,8 @@ body {
     background-color: #fff;
     width: 300px;
   }
+
+  /* Add properties to the contents of form*/
   form {
     width: 50%;
     margin: auto;
@@ -36,7 +41,7 @@ body {
     border: 1px solid #ccc;
     margin-bottom: 10px;
   }
-  button {
+  button.bu {
     width: 100%;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
@@ -50,4 +55,26 @@ body {
   }
   .container {
     width: 70px;
+  }
+
+/* Top bar properties*/  
+.topnav {
+    background-color: #474646;
+    overflow: hidden;
+}
+a {
+    color:#fff;
+    text-decoration:#474646;
+    background-color: #474646;
+
+}
+.topbar {
+    float:left;
+    top:0%;
+    left:auto;
+    padding: 14px 16px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    background-color: #474646;
   }
